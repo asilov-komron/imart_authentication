@@ -35,7 +35,7 @@ LOCAL_APPS = [
     "apps.api",
 ]
 
-THIRD_PARTY_APPS = ["drf_yasg", "rest_framework"]
+THIRD_PARTY_APPS = ["drf_yasg", "rest_framework", "rest_framework.authtoken"]
 
 DJANGO_APPS = [
     "django.contrib.admin",
